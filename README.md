@@ -1,7 +1,7 @@
 Dyn API hook for Dehydrated
 ===========================
 
-`host.rb` is a hook, driven by `hook.sh`, for [Dehydrated](https://dehydrated.de/) it get certificates from [Let's Encrypt](https://letsencrypt.org/) using the `dns-01` challenge-response method, for [Dyn](https://dyn.com/) Managed DNS.
+`host.rb` is a hook, driven by `hook.sh`, for [Dehydrated](https://dehydrated.de/) to get certificates from [Let's Encrypt](https://letsencrypt.org/) using the `dns-01` challenge-response method, for [Dyn](https://dyn.com/) Managed DNS.
 
 It uses the official `dyn-rb` gem to access the Dyn REST API, configured using Dehydrated's config file.
 
