@@ -21,4 +21,9 @@ deploy_cert() {
 	# nowt
 }
 
+invalid_challenge() {
+	local DOMAIN="${1}" RESULT="${2}"
+	echo " - ${DOMAIN} failed with ${RESULT}"
+}
+
 HANDLER=$1; shift; $HANDLER $@
