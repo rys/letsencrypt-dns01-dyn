@@ -7,7 +7,7 @@ It uses the official `dyn-rb` gem to access the Dyn REST API, configured using D
 
 The `dns-01` challenge-response is useful because it lets you get all of your certs from one ACME client, to save you littering clients on every host in your infrastructure that needs a cert. That's especially useful for hosts where you can't install and operate a client, like routers, where certificates can still be installed.
 
-It's a much more sensible method than the HTTP challenge-respons method for that reason.
+It's a much more sensible method than the HTTP challenge-response method for that reason.
 
 Basic Usage
 -----------
